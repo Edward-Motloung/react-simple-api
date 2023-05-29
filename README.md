@@ -2,6 +2,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Short Description
+This application pulls a list of users from the stackexchange api and displays each item in a UserCard components. The UserCard component enables users to interact with each user item that has been pulled from the api. The Users component is the component that invokes a service call to go an fetch the users using a GET request.
+
+The paginator component helps us paginate through the different users across different pages.
+
+## To do
+- Complete all tests
+- Pagination UI not 100%
+- JSDocumentaion
+
 ## To run the application:
 1. Run `npm install`
 2. Run `npm start`
