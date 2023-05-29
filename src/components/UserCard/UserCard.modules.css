@@ -1,0 +1,42 @@
+.card {
+    background-color: #fff;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 10px 3px rgba(255,255,255,0.35);
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card--disabled {
+    opacity: .4;
+    pointer-events: none;
+}
+
+.card-body img {
+    align-items: center;
+    border-radius: 100px !important;
+    height: 100px;
+    width: 100px;
+}
+
+.card-extension {
+    background-color: #fff;
+    box-shadow: 1px 1px 10px 3px rgba(255,255,255,0.35);
+    border-radius: 8px;
+    border-top: 1px solid #f5f5f5;
+    height: 40px;
+}
+
+.card-extension__button {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    user-select: none;
+}
+
+.card-extension span:hover {
+    cursor: pointer;
+}
