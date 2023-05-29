@@ -7,6 +7,10 @@ This application pulls a list of users from the stackexchange api and displays e
 
 The paginator component helps us paginate through the different users across different pages.
 
+All components are under the `/src/components` directory.
+All interfaces are under the `/src/interfaces` directory.
+All services are under the `/src/services` directory.
+
 ## To do
 - Complete all tests
 - Pagination UI not 100%
